@@ -29,7 +29,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory('/website_basic/'), // 告訴 Router 所有路由的基礎路徑
   routes
 })
 
